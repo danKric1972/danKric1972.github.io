@@ -271,8 +271,8 @@ footer {
   color: cyan;
   text-align: center;
   border-top: cyan groove 8px;
-  background: rgb(5, 0, 117,0.70);
-  box-shadow: 5px 5px 80px purple;
+  background: rgb(5, 0, 117, 0.70);
+  box-shadow: 5px 5px 50px pink;
 }
 
 /* Media queries */
