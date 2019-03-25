@@ -263,7 +263,7 @@ footer {
   position: fixed;
   width: 100%;
   padding: 10px;
-  margin-top: 0;
+  margin: auto;
   color: #ffffff;
   background-color: #000099;
   font-family: Courier;
