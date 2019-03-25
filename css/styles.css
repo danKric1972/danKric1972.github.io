@@ -262,7 +262,7 @@ footer {
   z-index: 5;
   width: 100%;
   padding: 10px;
-  margin: auto auto 0 auto;
+  margin-top: auto;
   color: #ffffff;
   background-color: #000099;
   font-family: Courier;
