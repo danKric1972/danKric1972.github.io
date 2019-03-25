@@ -258,13 +258,11 @@ input::placeholder {
   padding: 6px;
 }
 
-footer {
-  z-index: 5;
-  display: block;
+footer {  
   position: fixed;
   width: 100%;
   padding: 10px;
-  margin: auto;
+  bottom: 0;
   color: #ffffff;
   background-color: #000099;
   font-family: Courier;
