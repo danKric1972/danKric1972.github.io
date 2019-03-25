@@ -342,3 +342,9 @@ form {
 footer {
   margin-bottom: 0;
  } 
+ 
+ @media (max-width: 480px) {
+ul {
+  margin: 60px 0 0 130px;
+  width: 40%; 
+}
