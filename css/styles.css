@@ -190,7 +190,7 @@ h3 {
   font-family: Courier;
   font-size: 22px;  
   text-decoration: underline;
-  color: cyan;
+  color: lightgreen;
   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
@@ -218,7 +218,7 @@ label {
   float: left;
   font-family: Courier;
   font-weight: bold;
-  color: magenta;
+  color: lightgreen;
   font-size: 18px;
   width: 250px;
   margin-bottom: 6px;
@@ -241,7 +241,7 @@ button {
   width: 100px;
   height: 25px;
   margin-top: 30px;
-  color: magenta;
+  color: coral;
   background: cyan;
   border-radius: 8px;
 }
