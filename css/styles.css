@@ -72,6 +72,8 @@ header #brand h1 {
   }
 }
 
+/* Nav */
+
 header nav {
   float: right;
   margin-top: 10px;
@@ -83,6 +85,8 @@ a:hover {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
+
+/* Effects */
 
 a:focus 
 
@@ -117,6 +121,8 @@ header .current a {
   color: #ff00ff;
   font-weight: bold;
 }
+
+/* Scrolling Marquee */
 
 marquee {
   position: fixed;
@@ -176,16 +182,6 @@ marquee {
   padding: 150px;
 }
 
-#sidebar {
-  margin-top: 100px; 
-  margin-left: none;
-  width: 78em;
-}
-
-/* Contact info */
-
-
-
 /* Heading glow */
 
   @-webkit-keyframes glow {
@@ -199,9 +195,18 @@ marquee {
 
 /* Form fields */ 
 
+#sidebar {
+  float: none;
+  margin-top: 100px; 
+  margin-left: none;  
+  width: 68em;
+}
+
 form {
-  float: right;
+  float: left;
   width: 320px;
+  margin-top: 50px;
+  margin-left: 250px;
 }
 
 h3 { 
