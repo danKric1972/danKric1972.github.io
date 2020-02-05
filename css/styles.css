@@ -183,18 +183,7 @@ marquee {
 
 /* Contact info */
 
-h3 { 
-  float: left;
-  margin-right: 112px;
-  margin-top: -55px;
-  font-family: Courier;
-  font-size: 22px;  
-  text-decoration: underline;
-  color: lightgreen;
-  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
-  -moz-animation: glow 1.5s ease-in-out infinite alternate;
-  animation: glow 1.5s ease-in-out infinite alternate;
-  }
+
 
 /* Heading glow */
 
@@ -214,11 +203,24 @@ form {
   width: 320px;
 }
 
+h3 { 
+  float: left;
+  margin-right: 112px;
+  margin-top: -55px;
+  font-family: Courier;
+  font-size: 22px;  
+  text-decoration: underline;
+  color: cyan;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  }
+
 label {
   float: left;
   font-family: Courier;
   font-weight: bold;
-  color: lightgreen;
+  color: cyan;
   font-size: 18px;
   width: 250px;
   margin-bottom: 6px;
@@ -237,12 +239,12 @@ textarea::placeholder {
 }
 
 button {
-  float: left;
+  float: none;
   width: 100px;
   height: 25px;
   margin-top: 30px;
-  color: coral;
-  background: cyan;
+  color: pink;
+  background: darkblue;
   border-radius: 8px;
 }
 
