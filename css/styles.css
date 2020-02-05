@@ -178,6 +178,7 @@ marquee {
 
 #sidebar {
   margin-top: 100px; 
+  margin-left: none;
   width: 78em;
 }
 
