@@ -184,7 +184,7 @@ marquee {
 /* Contact info */
 
 h3 { 
-  float: right;
+  float: left;
   margin-right: 112px;
   margin-top: -55px;
   font-family: Courier;
