@@ -179,7 +179,7 @@ marquee {
 #contact a {
   color: cyan;
   text-decoration: none;
-  padding: 150px;
+  padding-left: 60px;
 }
 
 /* Heading glow */
