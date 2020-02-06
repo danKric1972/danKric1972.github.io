@@ -35,7 +35,7 @@ header {
   height: 102px;
   border-bottom: cyan groove 8px;
   background: rgb(5, 0, 117,0.70);
-  box-shadow: 5px 5px 80px purple;
+  box-shadow: 18px 18px 80px purple;
 }
 
 header a {
@@ -188,6 +188,16 @@ aside {
   padding-left: 0px;
 }
 
+p#inquiry a {
+  color: lightgreen;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+.demo {
+	color: cyan;
+}
+
 /* Heading glow */
 
   @-webkit-keyframes glow {
@@ -285,7 +295,7 @@ footer {
   text-align: center;
   border-top: blue groove 8px;
   background: rgb(5, 0, 117, 0.70);
-  box-shadow: 5px 5px 90px magenta;
+  box-shadow: -7px -7px 90px magenta;
 }
 
 /* Media queries */
