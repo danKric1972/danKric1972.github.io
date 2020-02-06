@@ -143,15 +143,14 @@ marquee {
   position: relative;
   background: #000099;
   background-size: 0 140px 0 140px;
-  padding: 5px 15px;
+  padding: 5px 20px;
   border-radius: 12px;
   border: magenta groove 4.5px; 
-  margin: 30%; 
+  margin: 40%; 
   font-family: Courier;
   font-size: 25px;
   color: cyan;
-  margin-left: 465px;  
-}
+ }
 
 .article {
   position: relative;  
