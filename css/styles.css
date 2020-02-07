@@ -133,11 +133,15 @@ marquee {
   color: cyan;
 }
 
+/* Weather Widget */
+
 aside {
 	position: absolute;
 	margin: 668px 0px;	
 	width: 90px;
 }
+
+/* Headline & Article Boxes*/
 
 #centerpiece {  
   position: absolute;  
@@ -152,7 +156,7 @@ aside {
   padding: 5px 20px;
   border-radius: 12px;
   border: magenta groove 4.5px; 
-  margin: 40%; 
+  margin: 34%; 
   font-family: Courier;
   font-size: 25px;
   color: cyan;
@@ -161,7 +165,7 @@ aside {
 .article {
   position: relative;  
   margin: 50px 530px;
-  width: 40%;
+  width: 25%;
   font-family: "franklin gothic book";
   font-size: 20.5px;
   color: white;
@@ -170,7 +174,7 @@ aside {
   background: rgb(5, 0, 117,0.70);
   box-shadow: 5px 5px 80px cyan;
   border-radius: 12px;
-  padding: 5px 25px;
+  padding: 20px 35px;
 }
 /*
 #contact-intro {
@@ -182,16 +186,17 @@ aside {
   font-size: 30.5px;
 }*/
 
-#contact a {
+/* Contact Me */
+
+.contact-info {
+  list-style-position: inside;  
   color: cyan;
-  text-decoration: none;
-  padding-left: 0px;
+  padding-left: 10px;
+  padding-top: 40px;
 }
 
-p#inquiry a {
+.contact-info a {
   color: lightgreen;
-  text-decoration: none;
-  padding-left: 0px;
 }
 
 .demo {
@@ -207,6 +212,11 @@ p#inquiry a {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px magenta, 0 0 40px magenta, 0 0 50px magenta, 0 0 60px magenta, 0 0 70px magenta, 0 0 80px magenta;
   }
+}
+ 
+#contact a {
+	color: cyan;
+	text-decoration: none;
 }
 
 /* Form fields */ 
