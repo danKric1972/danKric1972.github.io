@@ -289,7 +289,7 @@ input::placeholder {
 }
 
 footer {  
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 10px;
   bottom: 0;
@@ -407,5 +407,5 @@ aside {
 
 footer {
 	position: relative;
-	margin-bottom: -25em;
+	margin-bottom: -15em;
 }
