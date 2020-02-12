@@ -179,19 +179,11 @@ aside {
   border-radius: 12px;
   padding: 20px 35px;
 }
-/*
-#contact-intro {
-  position: absolute;
-  float: right;
-  width: 85%;
-  margin: 50px 150px;
-  font-family: "Courier";
-  font-size: 30.5px;
-}*/
 
 /* Contact Me */
 
 .contact-info {
+  width: 100%;
   list-style-position: inside;  
   color: cyan;
   padding-left: 10px;
