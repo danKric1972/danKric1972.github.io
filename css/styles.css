@@ -182,11 +182,15 @@ aside {
 
 /* Contact Me */
 
-.contact-info {
+ #contact-info {
+	margin-top: 65px;
+}
+
+.contact-form {
   list-style-position: inside;  
   color: cyan;
   padding-left: 10px;
-  padding-top: 40px;
+  padding-top: 5px;
 }
 
 .contact-info a {
