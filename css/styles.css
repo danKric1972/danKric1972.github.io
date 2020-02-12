@@ -406,5 +406,6 @@ aside {
 }
 
 footer {
+	position: relative;
 	margin-bottom: -25em;
 }
