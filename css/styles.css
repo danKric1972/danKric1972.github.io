@@ -183,7 +183,6 @@ aside {
 /* Contact Me */
 
 .contact-info {
-  width: 100%;
   list-style-position: inside;  
   color: cyan;
   padding-left: 10px;
@@ -393,6 +392,13 @@ header .highlight_2 {
 #contact {      
   margin-left: -165px;
   width: 250%;
+}
+
+.contact-info {
+  list-style-position: inside;  
+  color: cyan;
+  padding-left: 10px;
+  padding-top: 40px;
 }
 
 form {
