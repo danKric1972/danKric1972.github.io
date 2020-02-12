@@ -405,7 +405,8 @@ aside {
   width: 90px;
 }
 
-footer {
-  position: relative;
+footer {	
+  position: relative;  
   margin-top: 1500px;
+  padding-top: 50px;
 }
