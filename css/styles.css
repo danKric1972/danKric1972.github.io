@@ -405,3 +405,6 @@ aside {
   width: 90px;
 }
 
+footer {
+	margin-bottom: -25em;
+}
