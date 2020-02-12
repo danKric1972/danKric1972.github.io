@@ -313,6 +313,22 @@ footer {
     width: 100%;
   }
 
+nav {  
+  position: static;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  width: 70%;  
+}
+
+header a {	
+  font-size: 18px;
+}
+
+.current {
+	position: relative;
+	list-style-type: none;
+	margin-top: 0px;
+}
 
 #centerpiece { 
   position: relative;
@@ -327,62 +343,67 @@ footer {
   float: none;
   text-align: center;
   margin-top: 100px;
-  margin-left: 10px;
-  width: 80%;
+  margin-left: 50px;
+  width: 50%;
+  font-size: 20px;
 }
 
 .article {
   float: none; 
   margin-top: 200px;
-  margin-left: 10px;
-  width: 80%;
+  margin-left: 20px;
+  width: 60%;
+  font-size: 18px;
 }
 
 header {
-  float: none;
-  height: 250px;
+  float: left;
+  height: 100px;
 }
 
 marquee {
-  margin-top: 150px;
+  margin-top: 0px;
+  font-size: 15px;
 }
 
 header .highlight {
-  margin: -10px 0 0 85px;
-  width: 50%;
-}
+  font-size: 32px;
+  margin-left: -20px;
+} 
 
-header .highlight_2 {
-  margin: 70px 0 0 -200px;
-  width: 50%;
+header .highlight_2 {  
+  margin-left: -180px;
+  margin-top: 50px;
+  font-size: 20px;
 }
-       
-#contact {      
-  margin-left: -165px;
-  width: 250%;
-}
-
+ 
 .contact-info {
   list-style-position: inside;  
   color: cyan;
   padding-left: 10px;
   padding-top: 40px;
 }
-
-form {
-  position: fixed;
-  float: none;
-  width: 320px;
-  margin-left: 50px;
-  margin-top: 100px; 
-}
-
-aside {
-  position: absolute;
-  margin-top: 650px;
+ 
+#contact-form {      
+  margin-left: -290px;
+  margin-top: 90px;
   width: 100%;
 }
 
-footer {
-  margin-bottom: 0;
- } 
+input {
+  float: left;
+  font-family: arial;
+  width: 350px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+aside {
+  position: relative;
+  margin-top: 220px;
+  margin-left: 0px;	
+  width: 90px;
+}
+
+
+ 
