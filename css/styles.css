@@ -131,7 +131,7 @@ marquee {
   position: fixed;
   z-index: 9;
   top: 90px;
-  right: 30px;
+  right: 0px;
   font-family: Courier;
   font-size: 19px;
   color: cyan;
@@ -143,13 +143,6 @@ aside {
 	position: fixed;
 	margin: 668px 0px;	
 	width: 90px;
-}
-
-.weatherwidget.io {
-	position: absolute
-	top: 120px;
-	left: 250px;
-	z-index: 0;
 }
 
 /* Headline & Article Boxes*/
