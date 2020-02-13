@@ -339,11 +339,12 @@ nav {
 
 header a {	
   font-size: 18px;
+  font-weight: bold;
 }
 
 .current {
 	position: relative;
-	margin-top: 0px;
+	margin-top: 50px;
 }
 
 #centerpiece { 
