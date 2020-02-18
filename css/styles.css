@@ -104,10 +104,9 @@ a:focus
 
 header .highlight {
   color: #ff00ff;
-  font-family: "Rockwell";
-  font-size: 41px;
-  font-style: italic;
-  font-weight: bold;
+  font-family: "Poor Richard";
+  font-size: 43px;
+  font-style: italic;  
   text-transform: capitalize;
 }
 
