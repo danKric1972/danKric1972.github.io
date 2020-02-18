@@ -1,5 +1,5 @@
 .container {
-    display: inline-block;
+  display: inline-block;
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
@@ -50,7 +50,7 @@ header a {
 header li {
   float: left;
   display: inline;
-  padding: 20px 10px 0 25px; 
+  padding: 20px 30px 0 25px; 
   color: cyan;
   }
 
@@ -104,7 +104,7 @@ a:focus
 
 header .highlight {
   color: #ff00ff;
-  font-family: "Papyrus";
+  font-family: "Rockwell";
   font-size: 41px;
   font-style: italic;
   font-weight: bold;
@@ -160,7 +160,7 @@ aside {
   padding: 5px 20px;
   border-radius: 12px;
   border: magenta groove 4.5px; 
-  margin-left: 450px; 
+  margin-left: 830px; 
   font-family: Courier;
   font-size: 25px;
   color: cyan;
@@ -168,7 +168,7 @@ aside {
 
 .article {
   position: relative;  
-  margin: 50px 330px;
+  margin: 50px 530px;
   width: 45%;
   font-family: "franklin gothic book";
   font-size: 20.5px;
@@ -184,7 +184,8 @@ aside {
 /* Contact Me */
 
  #contact-info {
-	margin-top: 65px;
+  margin-top: 65px;
+  margin-left: 30px;
 }
 
 #contact-form {
@@ -194,7 +195,7 @@ aside {
   padding-top: 5px;
   float: none;
   margin-top: 30px; 
-  margin-left: -20px;  
+  margin-left: 180px;  
   width: 68em;
 }
 
@@ -203,7 +204,9 @@ aside {
 }
 
 .demo {
-	color: cyan;
+  color: cyan;
+  margin-top: 40px;
+  margin-left: 0px;
 }
 
 /* Heading glow */
@@ -219,7 +222,8 @@ aside {
  
 #contact a {
 	color: cyan;
-	text-decoration: none;
+  text-decoration: none;
+  margin-left: 220px;  
 }
 
 /* Form fields */ 
@@ -228,7 +232,7 @@ aside {
 form {
   float: left;
   width: 320px;
-  margin-top: 20px;
+  margin-top: 90px;
   margin-left: 250px;
 }
 
@@ -258,8 +262,8 @@ label {
 textarea {
   float: left;
   font-family: arial;
-  width: 250px;
-  height: 80px;
+  width: 300px;
+  height: 70px;
   border-radius: 8px;
 }
 
@@ -269,18 +273,19 @@ textarea::placeholder {
 
 button {
   float: none;
-  width: 100px;
-  height: 25px;
-  margin-top: 30px;
+  width: 130px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 80px;
   color: pink;
   background: darkblue;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 
 input {
 float: left;
 font-family: arial;
-width: 250px;
+width: 300px;
 margin-bottom: 20px;
 border-radius: 8px;
 }
