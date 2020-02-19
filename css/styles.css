@@ -202,6 +202,14 @@ aside {
   color: lightgreen;
 }
 
+#career-title {
+  margin-left: 300px;
+}
+
+#summary {
+  margin-left: 15px;
+
+}
 .demo {
   color: cyan;
   margin-top: 40px;
@@ -315,7 +323,7 @@ footer {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
-    width: 90%;
+    width: 100%;
   }
 
 @media only screen and (min-width: 768px) {
