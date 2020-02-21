@@ -146,20 +146,20 @@ aside {
 
 /* Headline & Article Boxes*/
 
-#centerpiece {  
+.centerpiece {  
   position: absolute;  
   top: 180px;  
   color: #ffffff;
 }
 
-#centerpiece h1 span {
+.centerpiece h1 span {
   position: relative;
   background: #000099;
   background-size: 0 140px 0 140px;
   padding: 5px 20px;
   border-radius: 12px;
   border: magenta groove 4.5px; 
-  margin-left: 830px; 
+  margin-left: 800px; 
   font-family: Courier;
   font-size: 25px;
   color: cyan;
@@ -204,6 +204,20 @@ aside {
 
 #career-title {
   margin-left: 300px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#career-obj {
+  margin-left: 0px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#career-qc {
+  margin-left: 0px;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 #summary {
@@ -301,6 +315,18 @@ input::placeholder {
   padding: 6px;
 }
 
+img {
+  position: fixed;
+  z-index: 1;
+  width: 150px;
+  height: 70px;
+  margin-left: 1500px;
+  margin-top: 228px;
+  background: rgb(5, 0, 117, 0.70);
+  box-shadow: 10px 2px 30px magenta;
+}
+
+
 footer {  
   position: fixed;
   width: 100%;
@@ -361,7 +387,7 @@ header a {
 	margin-top: 50px;
 }
 
-#centerpiece { 
+.centerpiece { 
   position: relative;
   float: none;
   width: 90%;  
@@ -369,7 +395,7 @@ header a {
   left: -510px;
  } 
 
-#centerpiece .heading {
+.centerpiece .heading {
   position: absolute;
   float: none;
   text-align: center;
