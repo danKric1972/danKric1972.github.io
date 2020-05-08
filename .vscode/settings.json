@@ -1,3 +1,12 @@
 {
-    "workbench.panel.defaultLocation": "right"
+    "workbench.editor.tabCloseButton": "off",
+    "customizeUI.activityBar": "bottom",
+    "customizeUI.activityBarHideSettings": true,
+    "workbench.activityBar.visible": false,
+    "editor.semanticTokenColorCustomizations": null,
+    "workbench.colorCustomizations": {
+
+
+    },
+    "editor.tokenColorCustomizations": null
 }

@@ -1,27 +1,17 @@
 .container {
-  display: inline-block;
-	width: 100%;
+  display: flex;
 	margin: auto;
 	overflow: hidden;
 }
 
-ul {
-   margin: 0px 80px;
-   padding: 0;
-}
-
 body {
   position: relative;
-  display: grid;
-  flex-direction: column;
-  min-height: 200vh;
-  overflow-x: hidden;
   padding: 0;
   margin: 0; 
   bottom: 0; 
   background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;
   background-attachment: fixed;
-  width: 100%;
+
 }
 
 /* Header banner */
@@ -35,7 +25,7 @@ header {
   padding-top: 10px;
   height: 100px;
   border-bottom: cyan groove 8px;
-  background: rgb(5, 0, 117,0.70);
+  background: rgb(5, 0, 117,0.50);
   box-shadow: 18px 18px 80px purple;
 }
 
@@ -44,23 +34,19 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: Courier;
+  font-weight: bold;  
   font-size: 19px;
 }
 
-header li {
-  float: left;
-  display: inline;
-  padding: 20px 30px 0 25px; 
+header li { 
+  list-style: none;
+  padding: 20px 40px 0 25px; 
+  font-style: italic;
   color: cyan;
   }
 
-header #brand {
-  float: left;
-}
-
 header #brand h1 {
-  margin: 20px 50px;
-  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
 }
@@ -73,12 +59,57 @@ header #brand h1 {
   }
 }
 
+/* Brand Name */
+
+header .highlight { 
+  margin-top: 15px;
+  margin-left: 50px;
+  color: #ff00ff;
+  font-family: "Arial";
+  font-size: 36px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+header .highlight_2 {
+   margin-top: -58px;  
+   margin-left: 340px;
+   font-family: Courier;
+   font-style: italic;
+   font-size: 26px;
+   color: cyan;
+   
+} 
+
+header .current a {
+  color: #ff00ff;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+  margin-top: 15px;
+  margin-left: 780px;
+}
+
+
+/* Scrolling Marquee */
+
+marquee {
+  position: fixed;
+  z-index: 9;
+  top: 90px;
+  right: 0px;
+  font-family: Courier;
+  font-size: 19px;
+  font-style: italic;
+  color: cyan;
+}
+
 /* Nav */
 
-header nav {
-  float: right;
-  margin-top: 10px;
-}
 
 a:hover {
   color: pink; 
@@ -100,47 +131,13 @@ a:focus
   }
 }
 
-/* Brand Name */
-
-header .highlight {
-  color: #ff00ff;
-  font-family: "Arial";
-  font-size: 38px;
-  font-style: italic;  
-  text-transform: capitalize;
-}
-
-header .highlight_2 {
-   position: fixed;
-   font-family: Courier;
-   font-style: italic;
-   font-size: 28px;
-   color: cyan;
-   margin: 10px;   
-} 
-
-header .current a {
-  color: #ff00ff;
-  font-weight: bold;
-}
-
-/* Scrolling Marquee */
-
-marquee {
-  position: fixed;
-  z-index: 9;
-  top: 90px;
-  right: 0px;
-  font-family: Courier;
-  font-size: 19px;
-  color: cyan;
-}
 
 /* Weather Widget */
 
 aside {	
-	position: fixed;
-	margin: 668px 0px;	
+	position: absolute;
+  margin: 120px 0px;
+  padding-bottom: 70px;	
 	width: 90px;
 }
 
@@ -152,28 +149,29 @@ aside {
   color: #ffffff;
 }
 
-.centerpiece h1 span {
-  position: relative;
+.heading {
+  position: absolute;
+  display: flex;
+  margin-left: 35%;
   background: #000099;
   background-size: 0 140px 0 140px;
-  padding: 5px 20px;
+  text-align: center;
+  padding: 9px 20px;
   border-radius: 12px;
-  border: magenta groove 4.5px; 
-  margin-left: 800px; 
+  border:   #FF0087 groove 8px; 
   font-family: Courier;
   font-size: 25px;
-  color: cyan;
+  color:  #59ff00;
  }
 
-.article {
-  position: relative;  
-  margin: 50px 530px;
+.article {   
+  margin: 130px 530px;
   width: 45%;
   font-family: "franklin gothic book";
   font-size: 20.5px;
   color: white;
   background: #000099;
-  border: magenta groove 7px;
+  border: magenta groove 11px;
   background: rgb(5, 0, 117,0.70);
   box-shadow: 5px 5px 80px cyan;
   border-radius: 12px;
@@ -194,7 +192,7 @@ aside {
   padding-left: 110px;
   padding-top: 5px;
   float: none;
-  margin-top: 30px; 
+  margin-bottom: 550px; 
   margin-left: 180px;  
   width: 68em;
 }
@@ -298,7 +296,6 @@ textarea::placeholder {
 }
 
 button {
-  float: none;
   width: 130px;
   height: 40px;
   margin-top: 40px;
@@ -309,7 +306,7 @@ button {
 }
 
 input {
-float: left;
+
 font-family: arial;
 width: 300px;
 margin-bottom: 20px;
@@ -324,9 +321,9 @@ img {
   position: fixed;
   z-index: 1;
   width: 150px;
-  height: 70px;
-  margin-left: 1500px;
-  margin-top: 228px;
+  height: 55px;
+  margin-left: 1350px;
+  margin-top: 200px;
   background: rgb(5, 0, 117, 0.70);
   box-shadow: 10px 2px 30px magenta;
 }
@@ -334,31 +331,65 @@ img {
 
 footer {  
   position: fixed;
+  z-index: 5;
   width: 100%;
   padding: 10px;
   bottom: 0;
   color: #ffffff;
   background-color: #000099;
   font-family: Courier;
-  font-size: 20px;
+  font-size: 18px;
   color: cyan;
   text-align: center;
   border-top: blue groove 8px;
-  background: rgb(5, 0, 117, 0.70);
+  background: rgb(5, 0, 117, 0.20);
   box-shadow: -7px -7px 90px magenta;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  .article {
+    position: absolute;
+    width: 50% ;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 60%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 70%;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container{
+    width: 80%;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 100%;}
+}
 /* Media queries */
 
+/*
+@media screen and (max-width: 768px) {
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   [class*="col-"] {
+    float: center;
     width: 100%;
   }
 
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
+
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -376,7 +407,6 @@ footer {
 
 nav {  
   position: static;
-
   margin-right: 30px;
   margin-bottom: 100px;
   width: 80%;  
@@ -420,6 +450,7 @@ header a {
 
 header {
   float: left;
+
   height: 100px;
 }
 
