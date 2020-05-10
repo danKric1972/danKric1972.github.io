@@ -9,7 +9,7 @@ body {
   padding: 0;
   margin: 0; 
   bottom: 0; 
-  background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;
+  background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;  
   background-attachment: fixed;
 
 }
@@ -347,8 +347,11 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
- ul {  
-      background-color: red;
+ html {
+      background-size: auto;
+ }
+
+ ul {            
       float: none;
       margin-left: -210px;
       margin-top: 45px;
@@ -383,6 +386,10 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-width: 768px) {
+  html {
+    background-size: auto;
+}
+  
   ul {
     width: 70%;
   }
