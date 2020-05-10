@@ -349,10 +349,9 @@ footer {
 @media screen and (max-width: 480px) {
   html { 
     background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
 
   ul {            
@@ -407,12 +406,11 @@ footer {
  
   html { 
     background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
-  
+
   header {
     z-index: 5;
     width: 100%;
