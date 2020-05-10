@@ -38,13 +38,6 @@ header a {
   font-size: 19px;
 }
 
-header li { 
-  list-style: none;
-  padding: 20px 40px 0 25px; 
-  font-style: italic;
-  color: cyan;
-  }
-
 header #brand h1 {
     -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
@@ -86,30 +79,22 @@ header .current a {
   font-weight: bold;
 }
 
+/* Nav */
+
+header li { 
+  list-style: none;
+  padding: 20px 30px 0 25px; 
+  font-style: italic;
+  color: cyan;
+  }
+
 ul {
   display: flex;
   justify-content: flex-end;
   white-space: nowrap;
   margin-top: 15px;
-  margin-left: 780px;
+  margin-left: 380px;
 }
-
-
-/* Scrolling Marquee */
-
-marquee {
-  position: fixed;
-  z-index: 9;
-  top: 90px;
-  right: 0px;
-  font-family: Courier;
-  font-size: 19px;
-  font-style: italic;
-  color: cyan;
-}
-
-/* Nav */
-
 
 a:hover {
   color: pink; 
@@ -131,6 +116,18 @@ a:focus
   }
 }
 
+/* Scrolling Marquee */
+
+marquee {
+  position: fixed;
+  z-index: 9;
+  top: 90px;
+  right: 0px;
+  font-family: Courier;
+  font-size: 19px;
+  font-style: italic;
+  color: cyan;
+}
 
 /* Weather Widget */
 
@@ -328,7 +325,6 @@ img {
   box-shadow: 10px 2px 30px magenta;
 }
 
-
 footer {  
   position: fixed;
   z-index: 5;
@@ -346,37 +342,61 @@ footer {
   box-shadow: -7px -7px 90px magenta;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 480px) {
-  .container {
-    position: absolute;
-    width: 50% ;
-    text-align: center;
-  }
+/* Extra small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+ ul {  
+      float: none;
+      margin-left: -100px;
+      margin-top: 45px;
+      padding: 0px;
+      width: 50%;  
+    }
+
+.article {
+      float: none; 
+      margin-top: 100px;
+      margin-left: 100px;
+      width: 30%;
+      font-size: 19px;
+    }
+
+.centerpiece .heading {
+      float: none;
+      text-align: center;
+      margin-top: -30px;
+      margin-left: 100px;
+      width: 34%;
+      font-size: 20px;
+    }
+ 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) {
-  .container {
-    width: 60%;}
+@media screen and (min-width: 600px) {
+  ul {
+    width: 60%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {
-  .container {
-    width: 70%;}
+@media screen and (min-width: 768px) {
+  ul {
+    width: 70%;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
-  .container{
-    width: 80%;}
+@media screen and (min-width: 992px) {
+  ul{
+    width: 80%;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;}
+@media screen and (min-width: 1200px) {
+  ul {
+    width: 100%;
+  }
 }
 /* Media queries */
 
