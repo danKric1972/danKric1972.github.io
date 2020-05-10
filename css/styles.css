@@ -347,7 +347,7 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
- html {
+ body {
       background-size: 720px 480px;
  }
 
@@ -400,7 +400,7 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
-  html {
+  body {
     background-size: 1920px 1080px;
   }  
   header {
