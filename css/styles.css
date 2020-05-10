@@ -347,11 +347,6 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
-body {
-      left: 50%;
-      margin-left: -512px; / 50% */
-    }
-}
  ul {            
       float: none;
       margin-left: -210px;
@@ -401,11 +396,7 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
- body {
-    left: 50%;
-    margin-left: -512px; / 50% */
-  }  
-}
+ 
   header {
     z-index: 5;
     width: 100%;
