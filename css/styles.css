@@ -347,7 +347,7 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
-  html { 
+  html, body { 
     background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
     background-size: cover;
     height: 100%;
@@ -403,8 +403,7 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
- 
-  html { 
+   html, body { 
     background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
     background-size: cover;
     height: 100%;
