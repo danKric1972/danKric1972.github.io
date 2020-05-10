@@ -93,7 +93,7 @@ ul {
   justify-content: flex-end;
   white-space: nowrap;
   margin-top: 15px;
-  margin-left: 380px;
+  margin-left: 780px;
 }
 
 a:hover {
@@ -132,6 +132,7 @@ marquee {
 /* Weather Widget */
 
 aside {	
+  display: hidden;
 	position: absolute;
   margin: 120px 0px;
   padding-bottom: 70px;	
@@ -319,8 +320,8 @@ img {
   z-index: 1;
   width: 150px;
   height: 55px;
-  margin-left: 1350px;
-  margin-top: 200px;
+  margin-left: 300px;
+  margin-top: -55px;
   background: rgb(5, 0, 117, 0.70);
   box-shadow: 10px 2px 30px magenta;
 }
@@ -342,34 +343,36 @@ footer {
   box-shadow: -7px -7px 90px magenta;
 }
 
+/* Media Queries */
+
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
  ul {  
+      background-color: red;
       float: none;
-      margin-left: -100px;
+      margin-left: -210px;
       margin-top: 45px;
       padding: 0px;
       width: 50%;  
     }
 
-.article {
-      float: none; 
-      margin-top: 100px;
-      margin-left: 100px;
-      width: 30%;
-      font-size: 19px;
-    }
-
-.centerpiece .heading {
+    .heading {
       float: none;
       text-align: center;
       margin-top: -30px;
-      margin-left: 100px;
-      width: 34%;
+      margin-left: 110px;
+      width: 31%;
       font-size: 20px;
     }
- 
-}
+
+    .article {
+      float: none; 
+      margin-top: 100px;
+      margin-left: 10px;
+      width: 31%;
+      font-size: 19px;
+    }
+ }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
@@ -406,7 +409,6 @@ footer {
     top: 120px;
   }
 
-
   ul {  
     float: none;
     margin-left: -38px;
@@ -415,27 +417,24 @@ footer {
     width: 50%;
   }
 
+  .heading {
+    display: flex, inline-block;
+    align-items: center;
+    width: flex;
+    font-size: 20px;
+  }
+
 .article {
     float: none; 
     margin-top: 100px;
-    margin-left: 150px;
-    width: 60%;
+    margin-left: 170px;
+    width: 55%;
     font-size: 19px;
-  }
-
-.centerpiece .heading {
-    float: none;
-    text-align: center;
-    margin-top: -30px;
-    margin-left: 260px;
-    width: 40%;
-    font-size: 20px;
   }
 
 #brand {
     margin-top: -12px;
-}
-
+  }
 }
 /* Media queries */
 
