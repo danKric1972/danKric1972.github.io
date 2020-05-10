@@ -348,7 +348,7 @@ footer {
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
  body {
-      background-size: 720px 480px;
+      background-size: cover;
  }
 
  ul {            
@@ -401,7 +401,7 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
   body {
-    background-size: 1920px 1080px;
+    background-size: cover;
   }  
   header {
     z-index: 5;
