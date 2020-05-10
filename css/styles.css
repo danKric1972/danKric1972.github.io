@@ -347,7 +347,15 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
- ul {            
+  html { 
+    background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  ul {            
       float: none;
       margin-left: -210px;
       margin-top: 45px;
@@ -397,6 +405,14 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
  
+  html { 
+    background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
   header {
     z-index: 5;
     width: 100%;
