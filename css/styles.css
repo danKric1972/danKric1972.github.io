@@ -347,9 +347,11 @@ footer {
 
 /* Extra small devices (phones, 480px and down) */
 @media screen and (max-width: 480px) {
- body {
-      background-size: cover;
+ html, body {min-height: 100%;
  }
+ body {background-size: cover;
+ }
+}
 
  ul {            
       float: none;
@@ -400,8 +402,10 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (max-width: 1080px) {
-  body {
-    background-size: cover;
+  html, body {min-height: 100%;
+  }
+  body {background-size: cover;
+  }
   }  
   header {
     z-index: 5;
