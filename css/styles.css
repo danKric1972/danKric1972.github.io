@@ -1,8 +1,5 @@
 body {  
-	margin: auto;
-  padding: 0;
-  margin: 0; 
-  bottom: 0; 
+
   background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;  
   background-attachment: fixed;
   -webkit-background-size: cover;
