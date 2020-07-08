@@ -1,17 +1,12 @@
-.container {
-  display: flex;
-	margin: auto;
-	overflow: hidden;
-}
-
 body {
-  position: relative;
+  position: relative;  
+	margin: auto;
+
   padding: 0;
   margin: 0; 
   bottom: 0; 
   background: url('../img/pexels-photo-675937.jpeg') no-repeat center/cover;  
   background-attachment: fixed;
-
 }
 
 /* Header banner */
@@ -25,7 +20,7 @@ header {
   padding-top: 10px;
   height: 100px;
   border-bottom: cyan groove 8px;
-  background: rgb(5, 0, 117,0.50);
+  background: rgb(5, 0, 117,0.60);
   box-shadow: 18px 18px 80px purple;
 }
 
@@ -35,7 +30,8 @@ header a {
   text-transform: uppercase;
   font-family: Courier;
   font-weight: bold;  
-  font-size: 19px;
+  font-size: 18px;
+  padding: -40px;
 }
 
 header #brand h1 {
@@ -70,8 +66,7 @@ header .highlight_2 {
    font-family: Courier;
    font-style: italic;
    font-size: 26px;
-   color: cyan;
-   
+   color: cyan;   
 } 
 
 header .current a {
@@ -83,7 +78,7 @@ header .current a {
 
 header li { 
   list-style: none;
-  padding: 20px 30px 0 25px; 
+  padding: 20px 15px 0 25px; 
   font-style: italic;
   color: cyan;
   }
@@ -92,8 +87,8 @@ ul {
   display: flex;
   justify-content: flex-end;
   white-space: nowrap;
-  margin-top: 15px;
-  margin-left: 780px;
+  margin-top: -55px;
+  margin-right: 20px;
 }
 
 a:hover {
@@ -141,66 +136,71 @@ aside {
 
 /* Headline & Article Boxes*/
 
-.centerpiece {  
-  position: absolute;  
-  top: 180px;  
-  color: #ffffff;
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.heading {
+.titlebar {  
   position: absolute;
-  display: flex;
-  margin-left: 35%;
+  margin: 180px 650px;
+  text-align: center;  
   background: #000099;
-  background-size: 0 140px 0 140px;
+  background: rgb(5, 0, 117,0.70);
+  box-shadow: 5px 5px 80px #FF0087;
+  width: 620px;
   text-align: center;
-  padding: 9px 20px;
+  padding: 5px 0px;
   border-radius: 12px;
-  border:   #FF0087 groove 8px; 
+  border:   #FF0087 groove 9px; 
   font-family: Courier;
-  font-size: 25px;
+  font-size: 11px;
   color:  #59ff00;
  }
 
-.article {   
-  margin: 130px 530px;
-  width: 45%;
+.paragraph {   
+  position: absolute;
+  top: 180px;  
+  color: #ffffff;
+  margin: 160px 570px;
+  padding: 15px 40px;
+  width: 35%;  
   font-family: "franklin gothic book";
   font-size: 20.5px;
   color: white;
   background: #000099;
-  border: magenta groove 11px;
+  border: magenta groove 9px;
   background: rgb(5, 0, 117,0.70);
   box-shadow: 5px 5px 80px cyan;
   border-radius: 12px;
-  padding: 20px 35px;
+  
 }
 
 /* Contact Me */
 
  #contact-info {
   margin-top: 65px;
-  margin-left: 30px;
+  margin-left: 130px;
   color: cyan;
-}
-
-#contact-form {
-  list-style-position: inside;  
-  color: cyan;
-  padding-left: 110px;
-  padding-top: 5px;
-  float: none;
-  margin-bottom: 550px; 
-  margin-left: 180px;  
-  width: 68em;
 }
 
 .contact-info a {
   color: lightgreen;
 }
 
+#contact-form {
+  float: right;
+  list-style-position: inside;  
+  color: cyan;  
+  padding-top: 5px;
+  margin-top: 600px; 
+  margin-right: 1100px;  
+  
+}
+
 #career-title {
-  margin-left: 300px;
+  margin-left: 150px;
   font-style: italic;
   text-decoration: underline;
 }
@@ -224,7 +224,7 @@ aside {
 .demo {
   color: cyan;
   margin-top: 40px;
-  margin-left: 0px;
+  margin-left: 100px;
 }
 
 /* Heading glow */
@@ -252,14 +252,11 @@ a {
 
 
 form {
-  float: left;
-  width: 320px;
-  margin-top: 90px;
+  margin-top: 120px;
   margin-left: 250px;
 }
 
-h3 { 
-  float: left;
+h3 {
   margin-right: 112px;
   margin-top: -55px;
   font-family: Courier;
@@ -284,8 +281,9 @@ label {
 textarea {
   float: left;
   font-family: arial;
-  width: 300px;
+  width: 500px;
   height: 70px;
+  margin-right:-350px;
   border-radius: 8px;
 }
 
@@ -293,26 +291,26 @@ textarea::placeholder {
   padding: 2px 0 0 3px;  
 }
 
-button {
-  width: 130px;
-  height: 40px;
-  margin-top: 40px;
-  margin-left: 80px;
-  color: pink;
-  background: darkblue;
-  border-radius: 18px;
-}
-
 input {
-
 font-family: arial;
-width: 300px;
+width: 500px;
 margin-bottom: 20px;
+margin-right: -350px;
 border-radius: 8px;
 }
 
 input::placeholder {
   padding: 6px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 180px;
+  color: pink;
+  background: darkblue;
+  border-radius: 18px;
 }
 
 img {
@@ -339,236 +337,56 @@ footer {
   color: cyan;
   text-align: center;
   border-top: blue groove 8px;
-  background: rgb(5, 0, 117, 0.20);
+  background: rgb(5, 0, 117, 0.60);
   box-shadow: -7px -7px 90px magenta;
 }
 
 /* Media Queries */
 
-/* Extra small devices (phones, 480px and down) */
-@media screen and (max-width: 480px) {
-  html, body { 
-    background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-  }
+@media only screen and (max-width: 500px) {
 
-  ul {            
-      float: none;
-      margin-left: -210px;
-      margin-top: 45px;
-      padding: 0px;
-      width: 50%;  
-    }
-
-    .heading {
-      float: none;
-      text-align: center;
-      margin-top: -30px;
-      margin-left: 110px;
-      width: 31%;
-      font-size: 20px;
-    }
-
-    .article {
-      float: none; 
-      margin-top: 100px;
-      margin-left: 10px;
-      width: 31%;
-      font-size: 19px;
-    }
- }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 600px) {
   ul {
-    width: 60%;
+    margin-top: -30px;   
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-  ul {
-    width: 70%;
-  }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-  ul{
-    width: 80%;
-  }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (max-width: 1080px) {
-   html, body { 
-    background: url('../img/pexels-photo-675937.jpeg') no-repeat center center fixed; 
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  header {
-    z-index: 5;
-    width: 100%;
-    height: 130px;
-  }
-
-  marquee {
-    z-index: 9;
-    top: 120px;
-  }
-
-  ul {  
-    float: none;
-    margin-left: -38px;
-    margin-top: 32px;
-    padding: 10px;
-    width: 50%;
-  }
-
-  .heading {
-    display: flex, inline-block;
-    align-items: center;
-    width: flex;
-    font-size: 20px;
-  }
-
-.article {
-    float: none; 
-    margin-top: 100px;
-    margin-left: 170px;
-    width: 55%;
-    font-size: 19px;
-  }
-
-#brand {
-    margin-top: -12px;
-  }
-}
-/* Media queries */
-
-/*
-@media screen and (max-width: 768px) {
-
-  [class*="col-"] {
-    float: center;
-    width: 100%;
-  }
-
-@media only screen and (min-width: 768px) {
-
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
   
-}
-
-nav {  
-  position: static;
-  margin-right: 30px;
-  margin-bottom: 100px;
-  width: 80%;  
-}
-
-header a {	
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.current {
-	position: relative;
-	margin-top: 50px;
-}
-
-.centerpiece { 
-  position: relative;
-  float: none;
-  width: 90%;  
-  top: 230px; 
-  left: -510px;
- } 
-
-.centerpiece .heading {
-  position: absolute;
-  float: none;
-  text-align: center;
-  margin-top: 100px;
-  margin-left: 50px;
-  width: 50%;
-  font-size: 20px;
-}
-
-.article {
-  float: none; 
-  margin-top: 200px;
-  margin-left: 20px;
-  width: 60%;
-  font-size: 18px;
-}
-
-header {
-  float: left;
-
-  height: 100px;
-}
-
-marquee {
-  margin-top: 0px;
-  font-size: 15px;
-}
-
-header .highlight {
-  font-size: 32px;
-  margin-left: -20px;
-} 
-
-header .highlight_2 {  
-  margin-left: -180px;
-  margin-top: 50px;
-  font-size: 20px;
-}
+  .titlebar {
+    margin-left: 65px;
+    padding: 5px 0px;
+  }  
+  .paragraph {
+    margin-left: 15px;
+    padding: 10px 25px;      
+  }
  
-.contact-info {
-  list-style-position: inside;  
-  color: cyan;
-  padding-left: 10px;
-  padding-top: 40px;
-}
- 
-#contact-form {      
-  margin-left: -290px;
-  margin-top: 90px;
-  width: 100%;
+  img {
+    margin-left: 60px;
+  }
+
+  footer p {
+    text-align: left;
+    margin-left: 10px;
+  }
 }
 
-input {
-  float: left;
-  font-family: arial;
-  width: 350px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
+  @media only screen and (max-width: 1500px) {
+  .titlebar {
+      margin-left: 230px;
+      padding: 5px 0px;
+      width: 60%;
+    }
+     
+    .paragraph {      
+      margin-left: 200px;
+      padding: 10px 25px; 
+      width: 60%;
+    }
 
-aside {
-  position: relative;
-  margin-top: 668px;
-  margin-left: 0px;	
-  width: 90px;
-}
-
-footer {
-	position: relative;
-	margin-bottom: -5em;
-}
+    #contact-form {
+      float: right;
+      list-style-position: inside;  
+      color: cyan;  
+      padding-top: 5px;
+      margin-top: 600px; 
+      margin-right: 380px; 
+    } 
+  }    
