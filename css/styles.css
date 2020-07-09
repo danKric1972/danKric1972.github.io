@@ -51,6 +51,7 @@ header #brand h1 {
 }
 
 #datetime {
+  text-transform: uppercase;
   margin-left: 104px;
   margin-top: 50px;
   font-style: italic;
