@@ -50,6 +50,16 @@ header #brand h1 {
   }
 }
 
+#datetime {
+  margin-left: 104px;
+  margin-top: 50px;
+  font-style: italic;
+  font-family: Courier;
+  font-weight: bold;  
+  font-size: 18px;
+  color: cyan;
+}
+
 /* Brand Name */
 
 header .highlight { 
@@ -351,6 +361,10 @@ footer {
   ul {
     margin-top: -30px;   
   }
+
+  #datetime {
+    margin-top: 210px;
+  }
   
   .titlebar {
     margin-left: 65px;
@@ -374,9 +388,11 @@ footer {
   @media only screen and (max-width: 1500px) {
    ul {
     margin-top: -85px;
-    margin-right: 5px;
-    
-     
+    margin-right: 5px;     
+  }
+
+  #datetime {
+    margin-top: 80px;
   }
 
   .titlebar {

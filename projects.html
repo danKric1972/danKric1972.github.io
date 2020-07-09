@@ -27,6 +27,7 @@
               <li><a href="resume.html">Resumé</a></li>
               <li><a href="contact.html">Contact</a></li>
           </ul>
+          <p id="datetime"></p>
 		    <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="0">Welcome to my humble abode .. &nbsp; Please feel free to look around!</marquee>
         </nav>
       </div>
@@ -47,8 +48,13 @@
           !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
          </script>
         </aside>
+      <!-- Date & time stamp-->       
+       <script>
+        var dt = new Date();
+         document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
        <footer>
-        <p>&copy; 2020, All Rights Reserved</p> 
-      </footer>
-     </body>
-    </html>
+      <p>&copy; 2020, All Rights Reserved</p> 
+     </footer>
+    </body>
+   </html>
