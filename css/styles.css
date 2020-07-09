@@ -9,7 +9,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px;
 }
 
 /* Header banner */
@@ -372,17 +371,21 @@ footer {
 }
 
   @media only screen and (max-width: 1500px) {
+   ul {
+    margin-top: -30px;   
+  }
+
   .titlebar {
-      margin-left: 230px;
-      padding: 5px 0px;
-      width: 60%;
-    }
+    margin-left: 230px;
+    padding: 5px 0px;
+    width: 60%;
+  }
      
-    .paragraph {      
-      margin-left: 200px;
-      padding: 10px 25px; 
-      width: 60%;
-    }
+  .paragraph {      
+    margin-left: 200px;
+    padding: 10px 25px; 
+    width: 60%;
+  }
 
     #contact-form {
       float: right;
