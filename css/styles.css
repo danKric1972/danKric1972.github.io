@@ -413,4 +413,9 @@ footer {
       margin-top: 600px; 
       margin-right: 380px; 
     } 
+   
+    img {
+      margin-left: 380px;
+    }
+
   }    
