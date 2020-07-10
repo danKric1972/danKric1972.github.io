@@ -50,14 +50,10 @@ header #brand h1 {
   }
 }
 
-#datetime {
-  margin-left: 104px;
-  margin-top: 50px;
-  font-style: italic;
-  font-family: Courier;
-  font-weight: bold;  
-  font-size: 18px;
-  color: cyan;
+#timedate {
+  margin-right: 86%;
+  margin-top: 3%;
+  opacity: 0.8;  
 }
 
 /* Brand Name */
