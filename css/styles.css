@@ -352,16 +352,17 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
 
   ul {
     margin-top: -30px;   
   }
-
-  #datetime {
-    margin-top: 210px;
-  }
   
+  #timedate {
+    margin-right: 5000px;
+    margin-bottom: 520px;
+  }
+
   .titlebar {
     margin-left: 65px;
     padding: 5px 0px;
@@ -381,24 +382,25 @@ footer {
   }
 }
 
-  @media only screen and (max-width: 1500px) {
+  @media (max-width: 1500px) {
    ul {
     margin-top: -85px;
     margin-right: 5px;     
   }
 
   #timedate {
-    margin-right: 73%;
-    margin-top: 8%;
+    margin-left: 4%;
+    margin-top: 5%;
+  }
 
   .titlebar {
-    margin-left: 230px;
+    margin-left: 330px;
     padding: 5px 0px;
     width: 60%;
   }
      
   .paragraph {      
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 10px 25px; 
     width: 60%;
   }
