@@ -377,7 +377,7 @@ footer {
   }
 
   footer p {
-    text-align: left;
+    text-align: left;-
     margin-left: 10px;
   }
 }
@@ -389,8 +389,8 @@ footer {
   }
 
   #timedate {
-    margin-right: 83%;
-    margin-top: 5%;
+    margin-right: 73%;
+    margin-top: 8%;
   }
 
   .titlebar {
