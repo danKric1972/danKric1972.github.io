@@ -145,8 +145,8 @@ aside {
 /* Headline & Article Boxes*/
 
 .container {
-  width: 100%;
-  margin: 0 auto;
+  width: 100%; 
+  margin: 0 auto;  
   overflow: hidden;
 }
 
@@ -167,7 +167,7 @@ aside {
   color:  #59ff00;
  }
 
-.paragraph {   
+.paragraph { 
   position: absolute;
   top: 180px;  
   color: #ffffff;
@@ -181,8 +181,7 @@ aside {
   border: magenta groove 9px;
   background: rgb(5, 0, 117,0.70);
   box-shadow: 5px 5px 80px cyan;
-  border-radius: 12px;
-  
+  border-radius: 12px;  
 }
 
 /* Contact Me */
@@ -227,8 +226,13 @@ aside {
 
 #summary {
   margin-left: 15px;
-
 }
+
+pre {
+  font-family: "franklin gothic book";
+  font-size: 20.5px;
+}
+	
 .demo {
   color: cyan;
   margin-top: 40px;
