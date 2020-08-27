@@ -147,7 +147,6 @@ aside {
 .container {
   width: 100%; 
   margin: 0 auto;  
-  overflow: hidden;
 }
 
 .titlebar {  
@@ -356,92 +355,108 @@ footer {
 /* Media Queries */
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
-  header .highlight {    
-    margin-top: 20px;
-    margin-left: 140px;
-  } 
+.container {
+  margin-top: 210px;
+  margin-left: 60px;
+}
 
-  header .highlight_2 {
-    width: 20%;
-    margin-top: -25px;
-    margin-left: 180px;
-  }
+header {
+  margin-top: -279px;  
+}
 
- ul {
-    display: inline-table;    
-    float: none;    
-    margin-top: 90px;
-    margin-left: 180px;         
-  }
+header .highlight {
+  float: none;  
+  margin-top: -210px;
+  margin-left: 40px;
+} 
+
+header .highlight_2 {
+  float: none;
+  width: 20%;
+  margin-top: -15px;
+  margin-left: 80px;
+}
+
+ul {
+  display: inline-table;    
+  float: none;    
+  margin-top: 510px;
+  margin-left: 110px;         
+}
   
-  #timedate { 
-    float: none;    
-    margin-left: 80px;
-    margin-top: -100px;
-    
-  }
+#timedate { 
+  float: none;    
+  margin-left: 150px;
+  margin-top: -100px;    
+}
 
-  .titlebar {
-    float: none;
-    margin-left: 115px;
-    margin-top: 190px;
-    padding: 5px 0px;
-  }  
-  .paragraph {
-    float: none;
-    height: 45%;
-    width: 80%;
-    margin-left: -1215px;
-    margin-top: 180px;
-    padding: 10px 25px;      
-  }  
+a .weatherwidget-io {
+  float: none;
+  margin: 100%;
+}
 
-  img {
-    margin-right: -10px;    
-  }
+.titlebar {
+  float: none;
+  margin-left: 15px;
+  margin-top: 50px;
+  padding: 5px 0px;
+}  
+  
+.paragraph {
+  position: relative;
+  float: none;
+  height: 45%;
+  width: 80%;
+  margin-right: 120px;  
+  margin-top: 280px;
+  padding: 10px 25px;      
+}  
 
-  footer p {
-    text-align: left;    
+img {
+  margin-right: -10px;    
+}
+
+footer p {
+  text-align: left;    
   }
 }
 
-  @media (max-width: 1700px) {
+@media (max-width: 1700px) {
 
-   ul {
-    margin-top: -85px;
-    margin-right: 5px;     
-  }
+ul {
+  margin-top: -85px;
+  margin-right: 5px;     
+}
 
-  #timedate {
-    margin-right: 73%;
-    margin-top: 8%;
-  }
+#timedate {
+  margin-right: 73%;
+  margin-top: 8%;
+}
 
-  .titlebar {
-    margin-left: 330px;
-    padding: 5px 0px;
-    width: 60%;
-  }
+.titlebar {
+  margin-left: 330px;
+  padding: 5px 0px;
+  width: 60%;
+}
      
-  .paragraph {      
-    margin-left: 300px;
-    padding: 10px 25px; 
-    width: 60%;
-  }
+.paragraph {      
+  margin-left: 300px;
+  padding: 10px 25px; 
+  width: 60%;
+}
 
-  #contact-form {
-    float: right;
-    list-style-position: inside;  
-    color: cyan;  
-    padding-top: 5px;
-    margin-top: 600px; 
-    margin-right: 380px; 
-  }   
+#contact-form {
+  float: right;
+  list-style-position: inside;  
+  color: cyan;  
+  padding-top: 5px;
+  margin-top: 600px; 
+  margin-right: 380px; 
+}   
    
-    img {
-      margin-left: 310px;
-    }
-
-  }    
+img {
+  margin-left: 310px;
+  }
+}     
